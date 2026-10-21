@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080b0a"><meta name="color-scheme" content="dark"><meta name="description" content="NOVA FN Optimizer — NOVA Free — FPS-Analyse, Match-Prep, Background-App-Checkliste und nachvollziehbare Gaming-Checks.">
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+<title>NOVA FN Optimizer Free 3.0 — Performance Suite</title>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#overview" aria-label="NOVA Start"><span class="brand-mark">N</span><span><b>NOVA<span class="green">.</span></b><small>FN OPTIMIZER</small></span></a>
+    <div class="side-label">WORKSPACE</div>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <button class="nav-item active" data-page="overview"><span class="nav-icon">◈</span> Übersicht <span class="nav-end">01</span></button>
+      <button class="nav-item" data-page="tweaks"><span class="nav-icon">⌘</span> Tweak-Bibliothek <span class="nav-end" id="nav-count">120</span></button>
+      <button class="nav-item" data-page="analyzer"><span class="nav-icon">⌁</span> FPS Analyzer</button>
+      <button class="nav-item" data-page="playbook"><span class="nav-icon">⚡</span> Match Prep <span class="nav-end">FREE</span></button>
+      <button class="nav-item" data-page="background"><span class="nav-icon">◌</span> Background Apps <span class="nav-end">20</span></button>
+      <button class="nav-item" data-page="network"><span class="nav-icon">◎</span> Netzwerk-Lab</button>
+      <button class="nav-item" data-page="restore"><span class="nav-icon">↶</span> Verlauf & Undo</button>
+    </nav>
+    <div class="side-label side-label-spaced">SYSTEM</div>
+    <nav class="nav"><button class="nav-item" data-page="safety"><span class="nav-icon">⬡</span> Safety Center</button><button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span> Einstellungen</button></nav>
+    <div class="sidebar-bottom"><div class="status-orb"></div><div><b>Browser-Modus</b><small>Keine Systemänderungen</small></div><span class="live-dot"></span></div>
+  </aside>
+  <main class="main-area">
+    <header class="topbar"><button class="mobile-menu" id="mobile-menu" aria-label="Menü öffnen">☰</button><div class="crumb"><span>WORKSPACE</span><b id="crumb-title">Übersicht</b></div><div class="top-actions"><span class="version-pill"><i></i> BUILD 3.0.0</span><a class="site-download" href="NOVA_FN_Optimizer_Free_v3.html" download="NOVA_FN_Optimizer_Free_v3.html" title="NOVA als HTML herunterladen">↓ DOWNLOAD</a><button class="icon-btn" id="export-all" title="Daten exportieren" aria-label="Daten exportieren">⇩</button><div class="avatar">N</div></div></header>
+    <div class="content" id="content" tabindex="-1"></div>
+    <footer class="footer"><span><span class="green">NOVA</span> FN OPTIMIZER</span><span>LOCAL-FIRST · DATEN BLEIBEN IN DIESEM BROWSER</span><span>BUILD 3.0.0</span></footer>
+  </main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal-backdrop" id="modal-backdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" aria-label="Schließen">×</button><div id="modal-body"></div></section></div>
+<script src="app.js"></script>
+</body></html>
